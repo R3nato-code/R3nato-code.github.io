@@ -3,6 +3,9 @@ import db from './database/db.js'
 
 
 const app = express()
+
+app.use(express.static("src/site"))
+
 app.set('view engine', 'ejs');
 app.set('views', './src/site')
 

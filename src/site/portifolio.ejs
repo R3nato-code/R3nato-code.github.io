@@ -116,7 +116,6 @@
     .logo-nav {
       font-family: 'Orbitron', sans-serif;
       font-size: 1rem;
-      font-weight: 700;
       color: var(--neon-ciano) !important;
       text-shadow: 0 0 12px rgba(0,245,255,0.5);
       letter-spacing: 0.05em;
@@ -212,7 +211,6 @@
     }
     .titulo-secao {
       font-family: 'Orbitron', sans-serif;
-      font-weight: 700;
       color: #ffffff;
     }
 
@@ -420,13 +418,12 @@
       padding: 1rem 1.25rem;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       gap: 0.75rem;
     }
     .titulo-certificado {
       font-family: 'Orbitron', sans-serif;
       font-size: 0.82rem;
-      font-weight: 700;
       color: #ffffff;
       margin-bottom: 0.2rem;
     }
@@ -485,7 +482,7 @@
   <div class="container" style="max-width:1200px;">
 
     <div class="navbar-brand">
-      <a href="#inicio" class="navbar-item logo-nav">&lt;RENATO /&gt;</a>
+      <a href="#inicio" class="navbar-item logo-nav has-text-weight-bold">&lt;RENATO /&gt;</a>
 
       <!-- Hamburguer nativo do Bulma -->
       <a role="button" class="navbar-burger" id="btn-hamburguer" aria-label="menu" aria-expanded="false" data-target="menu-mobile">
@@ -496,12 +493,12 @@
     </div>
 
     <div id="menu-mobile" class="navbar-menu">
-      <div class="navbar-end" style="align-items:center;">
+      <div class="navbar-end is-align-items-center">
         <a href="#sobre"       class="navbar-item link-nav">Sobre</a>
         <a href="#habilidades" class="navbar-item link-nav">Certificados</a>
         <a href="#projetos"    class="navbar-item link-nav">Projetos</a>
         <a href="#contato"     class="navbar-item link-nav">Contato</a>
-        <div class="navbar-item" style="gap:6px;display:flex;align-items:center;">
+        <div class="navbar-item is-flex is-align-items-center" style="gap:6px;">
           <span class="ponto-status"></span>
           <span style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#3a8a4a;letter-spacing:0.1em;">ONLINE</span>
         </div>
@@ -515,23 +512,23 @@
 <section id="inicio" class="secao-pagina">
   <div class="container" style="max-width:1200px;width:100%;">
 
-    <div style="margin-bottom:1rem;">
+    <div class="mb-4">
       <span class="rotulo-secao">// INICIANDO SISTEMA...</span>
     </div>
 
     <h1 class="titulo-heroi brilho-ciano" style="font-size:clamp(2.8rem,7vw,5.5rem);color:var(--neon-ciano);margin-bottom:0.3rem;">
       RENATO
     </h1>
-    <h2 class="titulo-heroi" style="font-size:clamp(1.6rem,4vw,3rem);color:#c8d8e8;margin-bottom:1.5rem;">
+    <h2 class="titulo-heroi mb-5" style="font-size:clamp(1.6rem,4vw,3rem);color:#c8d8e8;">
       <span style="color:#4a6a80;">DESENVOLVEDOR DE</span> <span style="color:#ffffff;">SISTEMAS</span>
     </h2>
 
-    <div class="is-flex is-align-items-center" style="gap:10px;margin-bottom:2.5rem;">
+    <div class="is-flex is-justify-content-center is-align-items-center" style="gap:10px;margin-bottom:2.5rem;">
       <span style="font-family:'Share Tech Mono',monospace;font-size:0.85rem;color:#4a6a80;">&gt;</span>
       <span style="font-family:'Share Tech Mono',monospace;font-size:0.95rem;color:#6a9ab0;" class="cursor-digitando">Ensino Médio · Desenvolvimento de Sistemas</span>
     </div>
 
-    <p style="font-size:1.1rem;color:#6a8fa8;max-width:480px;line-height:1.7;margin-bottom:2.5rem;">
+    <p style="font-size:1.1rem;color:#6a8fa8;max-width:480px;line-height:1.7;">
       Desenvolvendo habilidades de programação. Portfólio construído com o auxílio de Inteligência Artificial Generativa.
     </p>
 
@@ -542,14 +539,14 @@
     </div>
 
     <!-- Blocos informativos -->
-    <div class="is-flex" style="gap:2rem;margin-top:4rem;flex-wrap:wrap;align-items:center;">
+    <div class="is-flex is-flex-wrap-wrap is-justify-content-center is-align-items-center" style="gap:2rem;margin-top:4rem;">
       <div>
-        <div style="font-family:'Orbitron',sans-serif;font-size:1.6rem;font-weight:700;color:var(--neon-ciano);">2</div>
+        <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:1.6rem;color:var(--neon-ciano);">2</div>
         <div style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">PROJETOS</div>
       </div>
       <div style="width:1px;height:40px;background:rgba(0,245,255,0.15);"></div>
       <div>
-        <div style="font-family:'Orbitron',sans-serif;font-size:1.6rem;font-weight:700;color:var(--neon-ciano);">5+</div>
+        <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:1.6rem;color:var(--neon-ciano);">5+</div>
         <div style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">TECNOLOGIAS</div>
       </div>
     </div>
@@ -563,24 +560,24 @@
 <section id="sobre" class="secao-pagina">
   <div class="container" style="max-width:1200px;">
 
-    <div class="entrada-suave" style="margin-bottom:3.5rem;">
+    <div class="entrada-suave has-text-centered" style="margin-bottom:3.5rem;">
       <span class="rotulo-secao">// 01 — SOBRE MIM</span>
-      <h2 class="titulo-secao" style="font-size:clamp(1.6rem,3vw,2.2rem);margin-top:0.5rem;">Quem sou eu?</h2>
+      <h2 class="titulo-secao mt-2 has-text-weight-bold" style="font-size:clamp(1.6rem,3vw,2.2rem);">Quem sou eu?</h2>
     </div>
 
     <!-- Bulma: columns -->
-    <div class="columns is-variable is-6 entrada-suave" style="align-items:center;">
+    <div class="columns is-variable is-6 entrada-suave is-align-items-center">
 
       <!-- Texto -->
       <div class="column is-half">
-        <div class="cartao-escuro" style="padding:2rem;margin-bottom:1.5rem;">
-          <span style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#4a6a80;letter-spacing:0.1em;display:block;margin-bottom:1rem;">IDENTIFICAÇÃO</span>
+        <div class="cartao-escuro mb-5 has-text-centered" style="padding:2rem;">
+          <span class="is-block mb-4" style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#4a6a80;letter-spacing:0.1em;">IDENTIFICAÇÃO</span>
           <p style="font-size:1.1rem;color:#9ab8cc;line-height:1.8;">
             Olá! Sou <strong style="color:var(--neon-ciano);">Renato</strong>, estudante de <strong style="color:#ffffff;">Desenvolvimento de Sistemas</strong> no Ensino Médio. Tenho paixão por criar projetos que resolvem problemas reais.
           </p>
         </div>
-        <div class="cartao-escuro" style="padding:2rem;">
-          <span style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#4a6a80;letter-spacing:0.1em;display:block;margin-bottom:1rem;">MISSÃO</span>
+        <div class="cartao-escuro has-text-centered" style="padding:2rem;">
+          <span class="is-block mb-4" style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#4a6a80;letter-spacing:0.1em;">MISSÃO</span>
           <p style="font-size:1.05rem;color:#9ab8cc;line-height:1.8;">
             Tenho como objetivo aumentar minhas habilidades e conhecimento de programção. Desenvolvendo projetos que solucionem problemas reais.
           </p>
@@ -592,38 +589,38 @@
         <div class="columns is-multiline is-variable is-3">
 
           <div class="column is-half">
-            <div class="cartao-escuro colchetes" style="padding:1.5rem;text-align:center;">
-              <div style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;margin-bottom:0.5rem;">CURSO</div>
-              <div style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-ciano);font-weight:700;">DEV SISTEMAS</div>
+            <div class="cartao-escuro colchetes p-5 has-text-centered">
+              <div class="mb-2" style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">CURSO</div>
+              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-ciano);">DEV SISTEMAS</div>
             </div>
           </div>
 
           <div class="column is-half">
-            <div class="cartao-escuro" style="padding:1.5rem;text-align:center;">
-              <div style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;margin-bottom:0.5rem;">NÍVEL</div>
-              <div style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-roxo);font-weight:700;">ESTUDANTE</div>
+            <div class="cartao-escuro p-5 has-text-centered">
+              <div class="mb-2" style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">NÍVEL</div>
+              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-roxo);">ESTUDANTE</div>
             </div>
           </div>
 
           <div class="column is-half">
-            <div class="cartao-escuro" style="padding:1.5rem;text-align:center;">
-              <div style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;margin-bottom:0.5rem;">FOCO</div>
-              <div style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-verde);font-weight:700;">Habilidades de programação</div>
+            <div class="cartao-escuro p-5 has-text-centered">
+              <div class="mb-2" style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">FOCO</div>
+              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-verde);">Habilidades de programação</div>
             </div>
           </div>
 
           <div class="column is-half">
-            <div class="cartao-escuro" style="padding:1.5rem;text-align:center;">
-              <div style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;margin-bottom:0.5rem;">STATUS</div>
-              <div class="is-flex is-justify-content-center is-align-items-center" style="gap:6px;font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-ciano);font-weight:700;">
+            <div class="cartao-escuro p-5 has-text-centered">
+              <div class="mb-2" style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">STATUS</div>
+              <div class="is-flex is-justify-content-center is-align-items-center has-text-weight-bold" style="gap:6px;font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-ciano);">
                 <span class="ponto-status" style="width:6px;height:6px;"></span>ATIVO
               </div>
             </div>
           </div>
 
           <div class="column is-full">
-            <div class="cartao-escuro" style="padding:1.5rem;text-align:center;">
-              <div style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;margin-bottom:0.75rem;">Habilidades utilizadas</div>
+            <div class="cartao-escuro p-5 has-text-centered">
+              <div class="mb-3" style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">Habilidades utilizadas</div>
               <!-- Bulma: tags -->
               <div class="tags is-centered" style="gap:6px;">
                 <span class="emblema-ia">HTML5</span>
@@ -646,10 +643,10 @@
 
 <!-- ===================== CERTIFICADOS ===================== -->
 <section id="habilidades" class="secao-pagina">
-  <div class="container" style="max-width:1200px;">
+  <div class="container has-text-centered" style="max-width:1200px;">
       <span class="rotulo-secao">// 02 — CERTIFICADOS</span>
     <div class="entrada-suave" style="margin-bottom:3.5rem;">
-      <h2 class="titulo-secao" style="font-size:clamp(1.6rem,3vw,2.2rem);margin-top:0.5rem;">Minhas Certificações</h2>
+      <h2 class="titulo-secao mt-2 has-text-weight-bold" style="font-size:clamp(1.6rem,3vw,2.2rem);">Minhas Certificações</h2>
     </div>
 
     <!-- Bulma: columns is-multiline para os 4 cards 2x2 -->
@@ -663,15 +660,15 @@
               <a href="<%= certificado.link %>">
 
         <div class="cartao-certificado">
-          <div class="image is-200x200;">
-            <img src="Certificado 1.jpg" alt="Certificado 1" class="imagem-certificado"
+          <div class="image is-12x12;">
+            <img src="<%=certificado.imagem %>" alt="Certificado 1" class="imagem-certificado"
               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
             <div class="placeholder-certificado">
             </div>
           </div>
-          <div class="rodape-cartao-certificado">
+          <div class="rodape-cartao-certificado has-text-centered">
             <div>
-              <h3 class="titulo-certificado"><%=certificado.nome%></h3>
+              <h3 class="titulo-certificado has-text-weight-bold"><%=certificado.nome%></h3>
               <p class="instituicao-certificado"><%=certificado.plataforma%> - <%=certificado.conclusao%></p>
             </div>
           </div>
@@ -681,56 +678,59 @@
 
 <% }) %>
 
-     
+    </div>
+  </div>
+</section>
+
 <!-- ===================== PROJETOS ===================== -->
 <section id="projetos" class="secao-pagina">
   <div class="container" style="max-width:1200px;">
 
-    <div class="entrada-suave" style="margin-bottom:3.5rem;">
+    <div class="entrada-suave has-text-centered" style="margin-bottom:3.5rem;">
       <span class="rotulo-secao">// 03 — PROJETOS</span>
-      <h2 class="titulo-secao" style="font-size:clamp(1.6rem,3vw,2.2rem);margin-top:0.5rem;">O que eu construí</h2>
+      <h2 class="titulo-secao mt-2 has-text-weight-bold" style="font-size:clamp(1.6rem,3vw,2.2rem);">O que eu construí</h2>
     </div>
 
     <!-- Bulma: columns para os projetos -->
     <div class="columns is-variable is-5 entrada-suave">
 
-      <!-- Projeto 1 - UniMind -->
+<% projetos.forEach(projeto => { %>
       <div class="column is-half">
         <div class="cartao-projeto">
           <div style="height:180px;background:linear-gradient(135deg,#030b18 0%,#0a1a30 50%,#081520 100%);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(0,245,255,0.12);">
-            <div style="text-align:center;position:relative;z-index:1;">
-              <div style="font-size:3rem;margin-bottom:0.5rem;">🧠</div>
-              <div style="font-family:'Orbitron',sans-serif;font-size:1.1rem;font-weight:700;color:var(--neon-ciano);text-shadow:0 0 15px rgba(0,245,255,0.5);">UniMind</div>
+            <div class="has-text-centered" style="position:relative;z-index:1;">
+              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:1.1rem;color:var(--neon-ciano);text-shadow:0 0 15px rgba(0,245,255,0.5);"><%=projeto.nome%></div>
             </div>
             <div style="position:absolute;width:120px;height:120px;border-radius:50%;border:1px solid rgba(0,245,255,0.07);top:-30px;right:-30px;"></div>
             <div style="position:absolute;width:80px;height:80px;border-radius:50%;border:1px solid rgba(0,245,255,0.05);bottom:10px;left:10px;"></div>
           </div>
 
           <div style="padding:1.5rem;">
-            <div class="is-flex is-justify-content-space-between is-align-items-flex-start" style="margin-bottom:1rem;">
+            <div class="is-flex is-flex-direction-column is-align-items-center has-text-centered mb-4">
               <div>
-                <h3 style="font-family:'Orbitron',sans-serif;font-size:1rem;font-weight:700;color:#ffffff;margin-bottom:0.25rem;">UniMind</h3>
-                <p style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#4a6a80;letter-spacing:0.1em;">SAÚDE MENTAL DIGITAL</p>
+                <h3 class="mb-1 has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:1rem;color:#ffffff;"><UniMind></h3>
+                <p style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#4a6a80;letter-spacing:0.1em;"><%=projeto.subtitulo%></p>
               </div>
-              <a href="https://unimind-site.vercel.app/" target="_blank"
+              <a href="<%= projeto.url %>" target="_blank" class="mt-3"
                 style="font-family:'Orbitron',sans-serif;font-size:0.6rem;padding:5px 12px;border:1px solid var(--neon-ciano);color:var(--neon-ciano);text-decoration:none;border-radius:2px;letter-spacing:0.08em;white-space:nowrap;transition:background 0.2s,color 0.2s;"
                 onmouseover="this.style.background='var(--neon-ciano)';this.style.color='#050a0f'"
                 onmouseout="this.style.background='transparent';this.style.color='var(--neon-ciano)'">↗ ACESSAR</a>
             </div>
 
-            <p style="font-size:0.95rem;color:#6a8fa8;line-height:1.75;margin-bottom:1.25rem;">
-              Plataforma digital dedicada à saúde mental, com dicas de bem-estar, identificação de sinais de atenção e um questionário emocional interativo para autocuidado.
+            <p class="has-text-centered" style="font-size:0.95rem;color:#6a8fa8;line-height:1.75;margin-bottom:1.25rem;">
+              <%=projeto.descricao%>
             </p>
 
             <!-- Bulma: tags -->
-            <div class="tags" style="gap:6px;margin-bottom:1rem;">
-              <span class="etiqueta-projeto">HTML5</span>
-              <span class="etiqueta-projeto">CSS3</span>
-              <span class="etiqueta-projeto">JavaScript</span>
-              <span class="etiqueta-projeto">Saúde Mental</span>
+            <div class="tags is-centered mb-4" style="gap:6px;">
+            <%projeto.habilidades.forEach(habilidade => { %>
+
+              <span class="etiqueta-projeto"><%=habilidade%></span>
+
+            <% }) %>
             </div>
 
-            <div class="is-flex" style="gap:1rem;font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#3a5a70;">
+            <div class="is-flex is-justify-content-center" style="gap:1rem;font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#3a5a70;">
               <span>⬡ Questionário IA</span>
               <span>⬡ Responsivo</span>
               <span>⬡ Vercel</span>
@@ -739,49 +739,7 @@
         </div>
       </div>
 
-      <!-- Projeto 2 - EduFlow -->
-      <div class="column is-half">
-        <div class="cartao-projeto">
-          <div style="height:180px;background:linear-gradient(135deg,#080412 0%,#140a2a 50%,#0d0720 100%);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(191,0,255,0.12);">
-            <div style="text-align:center;position:relative;z-index:1;">
-              <div style="font-size:3rem;margin-bottom:0.5rem;">🤖</div>
-              <div style="font-family:'Orbitron',sans-serif;font-size:1.1rem;font-weight:700;color:var(--neon-roxo);text-shadow:0 0 15px rgba(191,0,255,0.5);">EduFlow</div>
-            </div>
-            <div style="position:absolute;width:120px;height:120px;border-radius:50%;border:1px solid rgba(191,0,255,0.07);top:-30px;right:-30px;"></div>
-            <div style="position:absolute;width:80px;height:80px;border-radius:50%;border:1px solid rgba(191,0,255,0.05);bottom:10px;left:10px;"></div>
-          </div>
-
-          <div style="padding:1.5rem;">
-            <div class="is-flex is-justify-content-space-between is-align-items-flex-start" style="margin-bottom:1rem;">
-              <div>
-                <h3 style="font-family:'Orbitron',sans-serif;font-size:1rem;font-weight:700;color:#ffffff;margin-bottom:0.25rem;">EduFlow</h3>
-                <p style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#4a6a80;letter-spacing:0.1em;">DASHBOARD EDUCACIONAL</p>
-              </div>
-              <a href="https://eduflowbr.vercel.app/" target="_blank"
-                style="font-family:'Orbitron',sans-serif;font-size:0.6rem;padding:5px 12px;border:1px solid var(--neon-roxo);color:var(--neon-roxo);text-decoration:none;border-radius:2px;letter-spacing:0.08em;white-space:nowrap;transition:background 0.2s,color 0.2s;"
-                onmouseover="this.style.background='var(--neon-roxo)';this.style.color='#050a0f'"
-                onmouseout="this.style.background='transparent';this.style.color='var(--neon-roxo)'">↗ ACESSAR</a>
-            </div>
-
-            <p style="font-size:0.95rem;color:#6a8fa8;line-height:1.75;margin-bottom:1.25rem;">
-              Dashboard escolar inteligente com controle de notas, grade de aulas, calendário escolar e assistente de IA integrado para apoio ao estudante.
-            </p>
-
-            <div class="tags" style="gap:6px;margin-bottom:1rem;">
-              <span class="etiqueta-projeto" style="border-color:rgba(191,0,255,0.3);color:var(--neon-roxo);background:rgba(191,0,255,0.06);">HTML5</span>
-              <span class="etiqueta-projeto" style="border-color:rgba(191,0,255,0.3);color:var(--neon-roxo);background:rgba(191,0,255,0.06);">CSS3</span>
-              <span class="etiqueta-projeto" style="border-color:rgba(191,0,255,0.3);color:var(--neon-roxo);background:rgba(191,0,255,0.06);">JavaScript</span>
-              <span class="etiqueta-projeto" style="border-color:rgba(191,0,255,0.3);color:var(--neon-roxo);background:rgba(191,0,255,0.06);">EduTech</span>
-            </div>
-
-            <div class="is-flex" style="gap:1rem;font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#3a5a70;">
-              <span>⬡ EduFlow AI</span>
-              <span>⬡ Calendário</span>
-              <span>⬡ Vercel</span>
-            </div>
-          </div>
-        </div>
-      </div>
+<% }) %>
 
     </div>
   </div>
@@ -833,7 +791,6 @@
   .valor-info-contato {
     font-family: 'Rajdhani', sans-serif;
     font-size: 1rem;
-    font-weight: 600;
     color: #c8d8e8;
   }
  
@@ -853,10 +810,10 @@
 <section id="contato" class="secao-pagina">
   <div class="container" style="max-width:900px;">
  
-    <div class="entrada-suave has-text-centered" style="margin-bottom:3rem;">
+    <div class="entrada-suave has-text-centered mb-6">
       <span class="rotulo-secao">// 04 — CONTATO</span>
-      <h2 class="titulo-secao" style="font-size:clamp(1.6rem,3vw,2.2rem);margin-top:0.5rem;">Minhas Informações</h2>
-      <p style="color:#6a8fa8;font-size:1rem;margin-top:1rem;line-height:1.7;">Fique à vontade para entrar em contato por qualquer canal abaixo.</p>
+      <h2 class="titulo-secao mt-2 has-text-weight-bold" style="font-size:clamp(1.6rem,3vw,2.2rem);">Minhas Informações</h2>
+      <p class="mt-4" style="color:#6a8fa8;font-size:1rem;line-height:1.7;">Fique à vontade para entrar em contato por qualquer canal abaixo.</p>
     </div>
  
     <!-- Grid de cards de informação — Bulma columns -->
@@ -868,7 +825,7 @@
           <div class="icone-info-contato" style="color:var(--neon-ciano);">◈</div>
           <div>
             <div class="rotulo-info-contato">NOME COMPLETO</div>
-            <div class="valor-info-contato"> <%= perfil.nomeCompleto %></div>
+            <div class="valor-info-contato has-text-weight-semibold"> <%= perfil.nomeCompleto %></div>
           </div>
         </div>
       </div>
@@ -879,7 +836,7 @@
           <div class="icone-info-contato" style="color:var(--neon-ciano);">◈</div>
           <div>
             <div class="rotulo-info-contato">EMAIL</div>
-            <a href="mailto:seuemail@email.com" class="valor-info-contato valor-link"><%= perfil.email%></a>
+            <a href="mailto:seuemail@email.com" class="valor-info-contato valor-link has-text-weight-semibold"><%= perfil.email%></a>
           </div>
         </div>
       </div>
@@ -890,7 +847,7 @@
           <div class="icone-info-contato" style="color:var(--neon-roxo);">◈</div>
           <div>
             <div class="rotulo-info-contato">GITHUB</div>
-            <a href="https://github.com/R3nato-code/Perfil" target="_blank" class="valor-info-contato valor-link">github.com/Renato</a>
+            <a href="https://github.com/R3nato-code/Perfil" target="_blank" class="valor-info-contato valor-link has-text-weight-semibold">github.com/Renato</a>
           </div>
         </div>
       </div>
@@ -901,7 +858,7 @@
           <div class="icone-info-contato" style="color:var(--neon-roxo);">◈</div>
           <div>
             <div class="rotulo-info-contato"><LINKEDIN></div>
-            <a href="https://www.linkedin.com/feed/" target="_blank" class="valor-info-contato valor-link"><%= perfil.linkedin %></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank" class="valor-info-contato valor-link has-text-weight-semibold"><%= perfil.linkedin %></a>
           </div>
         </div>
       </div>
@@ -912,7 +869,7 @@
           <div class="icone-info-contato" style="color:var(--neon-verde);">◈</div>
           <div>
             <div class="rotulo-info-contato">LOCALIZAÇÃO</div>
-            <div class="valor-info-contato"><%= perfil.localizacao %></div>
+            <div class="valor-info-contato has-text-weight-semibold"><%= perfil.localizacao %></div>
           </div>
         </div>
       </div>
@@ -923,7 +880,7 @@
           <div class="icone-info-contato" style="color:var(--neon-verde);">◈</div>
           <div>
             <div class="rotulo-info-contato">DISPONIBILIDADE</div>
-            <div class="valor-info-contato" style="display:flex;align-items:center;gap:8px;">
+            <div class="valor-info-contato is-flex is-align-items-center has-text-weight-semibold" style="gap:8px;">
               <span class="ponto-status" style="width:7px;height:7px;flex-shrink:0;"></span>
               Aberto a oportunidades
             </div>
@@ -935,10 +892,10 @@
  
     <!-- Card destaque: mensagem final -->
     <div class="entrada-suave" style="margin-top:2rem;">
-      <div class="cartao-escuro" style="padding:2rem;text-align:center;border-color:rgba(0,245,255,0.15);">
-        <p style="font-family:'Share Tech Mono',monospace;font-size:0.8rem;color:#4a6a80;letter-spacing:0.1em;margin-bottom:0.75rem;">// MENSAGEM</p>
+      <div class="cartao-escuro has-text-centered" style="padding:2rem;border-color:rgba(0,245,255,0.15);">
+        <p class="mb-3" style="font-family:'Share Tech Mono',monospace;font-size:0.8rem;color:#4a6a80;letter-spacing:0.1em;">// MENSAGEM</p>
         <p style="font-size:1.05rem;color:#9ab8cc;line-height:1.8;max-width:520px;margin:0 auto;">
-          Estou em busca de aprender, colaborar e crescer. Se você tem um projeto ou oportunidade — <strong style="color:var(--neon-ciano);">entre em contato! (42) 99829-2718</strong>
+          Estou em busca de aprender, colaborar e crescer. Se você tem um projeto ou oportunidade — <strong style="color:var(--neon-ciano);">entre em contato! <%=perfil.numero%></strong>
         </p>
       </div>
     </div>
@@ -950,15 +907,15 @@
 <footer style="padding:2.5rem 1.5rem;position:relative;z-index:1;">
   <div class="container" style="max-width:1200px;">
     <!-- Bulma: level para alinhar rodapé -->
-    <div class="level" style="align-items:center;">
+    <div class="level">
       <div class="level-left">
-        <div class="level-item" style="flex-direction:column;align-items:flex-start;">
-          <div style="font-family:'Orbitron',sans-serif;font-size:0.85rem;font-weight:700;color:var(--neon-ciano);margin-bottom:0.3rem;">&lt;RENATO /&gt;</div>
+        <div class="level-item is-flex-direction-column is-align-items-flex-start">
+          <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-ciano);margin-bottom:0.3rem;">&lt;RENATO /&gt;</div>
           <div style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#3a5a70;letter-spacing:0.1em;">DESENVOLVEDOR DE SISTEMAS · 2026</div>
         </div>
       </div>
       <div class="level-right">
-        <div class="level-item" style="text-align:right;">
+        <div class="level-item has-text-right">
           <div style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#2a3a48;letter-spacing:0.08em;">
             CONSTRUÍDO COM IA GENERATIVA<br>
             <span style="color:#1a2a38;">HTML5 · CSS3 · JS · BULMA</span>
