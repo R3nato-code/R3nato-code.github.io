@@ -1,15 +1,14 @@
 const db = {
     perfil: {
-        nomeCompleto: 'Cesar M. Chauchuty',
-        dataNasc: '1992-11-19',
-        curso: 'Técnico em Desenvolvimento de Sistemas'
+        nomeCompleto: 'Renato da Silva Hipólito Mascarenhas',
+        email: 'mascarenhasr02@gmail.com',
+        linkedin: 'https://www.linkedin.com/in/renato',
+        localizacao:'Ponta Grossa - PR',
+        git: "github.com/Renato"
     },
     certificados: [
         {
-            nome: 'Curso Aluno - Front-end 100%',
-            dataEmissao: '2026-06-06',
-            descricao: 'Uma descrição... blablba',
-            duracao: 32,
+            link:"https://cursos.alura.com.br/certificate/renato-mascarenhas/html5-css3-primeiros-passos"
         },
         {
             nome: 'Curso Aluno - Back-end 100%',
