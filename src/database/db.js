@@ -8,26 +8,19 @@ const db = {
     },
     certificados: [
         {
-            link:"https://cursos.alura.com.br/certificate/renato-mascarenhas/html5-css3-primeiros-passos"
+            link: 'https://cursos.alura.com.br/certificate/renato-mascarenhas/html5-css3-primeiros-passos',
+            nome: 'HTML5 e CSS3',
+            plataforma:'Alura',
+            conclusao: 'Conclusão em 19 de maio de 2026',
         },
+
         {
-            nome: 'Curso Aluno - Back-end 100%',
-            dataEmissao: '2026-04-06',
-            descricao: 'Uma descrição... blablba',
-            duracao: 48,
+            link: 'https://cursos.alura.com.br/user/renato-mascarenhas/course/git-github-compartilhando-colaborando-projetos/certificate',
+            nome: 'Git e GitHub: compartilhando e colaborando em projetos',
+            plataforma:'Alura',
+            conclusao: 'Conclusão em 10 de dezembro de 2025',
         },
-        {
-            nome: 'Curso Aluno - Banco de Dados 99%',
-            dataEmissao: '2026-02-06',
-            descricao: 'Uma descrição... blablba',
-            duracao: 56,
-        },
-        {
-            nome: 'Curso Aluno - Analise e Projeto de Sistemas 99%',
-            dataEmissao: '2026-01-06',
-            descricao: 'Uma descrição... blablba',
-            duracao: 56,
-        }
+
     ]
 }
 

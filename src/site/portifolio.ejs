@@ -655,9 +655,12 @@
     <!-- Bulma: columns is-multiline para os 4 cards 2x2 -->
     <div class="columns is-multiline is-variable is-4 entrada-suave">
 
-      <!-- Card 1 -->
+
+        <% certificados.forEach(certificado => { %>
+
+          <!-- Card 1 -->
       <div class="column is-half">
-               <a href="https://cursos.alura.com.br/certificate/renato-mascarenhas/html5-css3-primeiros-passos">
+              <a href="<%= certificado.link %>">
 
         <div class="cartao-certificado">
           <div class="image is-200x200;">
@@ -668,78 +671,17 @@
           </div>
           <div class="rodape-cartao-certificado">
             <div>
-              <h3 class="titulo-certificado">HTML5 e CSS3</h3>
-              <p class="instituicao-certificado">Alura - Conclusão em 19 de maio de 2026</p>
-            </div>
-          </div>
-        </div>
-      </div>
-        </a>
-      <!-- Card 2 -->
-      <div class="column is-half">
-        <a href="https://cursos.alura.com.br/user/renato-mascarenhas/course/git-github-compartilhando-colaborando-projetos/certificate">
-        <div class="cartao-certificado">
-          <div class="image is-200x200">
-            <img src="Certificado 2.jpg" alt="Certificado 2" class="imagem-certificado"
-              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
-            <div class="placeholder-certificado">
-            </div>
-          </div>
-          <div class="rodape-cartao-certificado">
-            <div>
-              <h3 class="titulo-certificado">Git e GitHub</h3>
-              <p class="instituicao-certificado">Alura - Conclusão em 10 de dezembro de 2025</p>
-            </div>
-          </div>
-        </div>
-      </div>
-        </a>
-      <!-- Card 3 -->
-            <div class="column is-half">
-        <a href="https://cursos.alura.com.br/user/renato-mascarenhas/course/javascript-listas-lacos/certificate">
-        <div class="cartao-certificado">
-          <div class="image is-200x200">
-            <img src="Certificado 3.jpg" alt="Certificado 2" class="imagem-certificado"
-              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
-            <div class="placeholder-certificado">
-            </div>
-          </div>
-          <div class="rodape-cartao-certificado">
-            <div>
-              <h3 class="titulo-certificado">Lógica de programação JavaScript</h3>
-              <p class="instituicao-certificado">Alura - Conclusão em 19 de novembro de 2025</p>
+              <h3 class="titulo-certificado"><%=certificado.nome%></h3>
+              <p class="instituicao-certificado"><%=certificado.plataforma%> - <%=certificado.conclusao%></p>
             </div>
           </div>
         </div>
       </div>
         </a>
 
-      <!-- Card 4 -->
-      <div class="column is-half">
-        <a href="https://cursos.alura.com.br/user/renato-mascarenhas/course/projetos-artisticos-javascript/certificate">
-        <div class="cartao-certificado">
-          <div class="image is-200x200">
-            <img src="Certificado 4.jpg" alt="Certificado 2" class="imagem-certificado"
-              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
-            <div class="placeholder-certificado">
-            </div>
-          </div>
-          <div class="rodape-cartao-certificado">
-            <div>
-              <h3 class="titulo-certificado">JavaScript</h3>
-              <p class="instituicao-certificado">Alura - Conclusão em 13 de novembro de 2024</p>
-            </div>
-          </div>
-        </div>
-      </div>
-        </a>
+<% }) %>
 
-    </div>
-  </div>
-</section>
-
-<div class="linha-neon" style="position:relative;z-index:1;"></div>
-
+     
 <!-- ===================== PROJETOS ===================== -->
 <section id="projetos" class="secao-pagina">
   <div class="container" style="max-width:1200px;">
