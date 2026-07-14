@@ -579,7 +579,7 @@
         <div class="cartao-escuro has-text-centered" style="padding:2rem;">
           <span class="is-block mb-4" style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#4a6a80;letter-spacing:0.1em;">MISSÃO</span>
           <p style="font-size:1.05rem;color:#9ab8cc;line-height:1.8;">
-            Tenho como objetivo aumentar minhas habilidades e conhecimento de programção. Desenvolvendo projetos que solucionem problemas reais.
+            <%=perfil.objetivo%>
           </p>
         </div>
       </div>
@@ -591,21 +591,21 @@
           <div class="column is-half">
             <div class="cartao-escuro colchetes p-5 has-text-centered">
               <div class="mb-2" style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">CURSO</div>
-              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-ciano);">DEV SISTEMAS</div>
+              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-ciano);"><%=estadoAtual.curso.toUpperCase()%></div>
             </div>
           </div>
 
           <div class="column is-half">
             <div class="cartao-escuro p-5 has-text-centered">
               <div class="mb-2" style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">NÍVEL</div>
-              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-roxo);">ESTUDANTE</div>
+              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-roxo);"><%=estadoAtual.nivel.toUpperCase()%></div>
             </div>
           </div>
 
           <div class="column is-half">
             <div class="cartao-escuro p-5 has-text-centered">
               <div class="mb-2" style="font-family:'Share Tech Mono',monospace;font-size:0.65rem;color:#4a6a80;letter-spacing:0.15em;">FOCO</div>
-              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-verde);">Habilidades de programação</div>
+              <div class="has-text-weight-bold" style="font-family:'Orbitron',sans-serif;font-size:0.85rem;color:var(--neon-verde);"><%=estadoAtual.foco.toUpperCase()%></div>
             </div>
           </div>
 
@@ -643,7 +643,7 @@
 
 <!-- ===================== CERTIFICADOS ===================== -->
 <section id="habilidades" class="secao-pagina">
-  <div class="container has-text-centered" style="max-width:1200px;">
+  <div class="container has-text-centered" style="max-width:900px;">
       <span class="rotulo-secao">// 02 — CERTIFICADOS</span>
     <div class="entrada-suave" style="margin-bottom:3.5rem;">
       <h2 class="titulo-secao mt-2 has-text-weight-bold" style="font-size:clamp(1.6rem,3vw,2.2rem);">Minhas Certificações</h2>

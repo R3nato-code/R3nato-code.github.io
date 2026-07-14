@@ -5,15 +5,25 @@ const db = {
         linkedin: 'https://www.linkedin.com/in/renato',
         localizacao:'Ponta Grossa - PR',
         git: "github.com/Renato",
-        numero: "(42) 99829-2718"
+        numero: "(42) 99829-2718",
+        objetivo:"Tenho como objetivo aumentar minhas habilidades e conhecimento de programção. Desenvolvendo projetos que solucionem problemas reais."
+        
     },
+
+    estadoAtual:{
+        nivel:"Estudante",
+        curso:"Dev sistemas",
+        foco:"Habilidades de programação"
+    },
+
     certificados: [
         {
-            link: 'https://cursos.alura.com.br/certificate/renato-mascarenhas/html5-css3-primeiros-passos',
-            nome: 'HTML5 e CSS3',
+            link: 'https://cursos.alura.com.br/user/renato-mascarenhas/course/projetos-artisticos-javascript/certificate',
+            nome: 'Git e GitHub: repositório, commit e versões',
             plataforma:'Alura',
-            conclusao: 'Conclusão em 19 de maio de 2026',
-            imagem: 'Certificado 1.jpg'
+            conclusao: 'conclusão em 13 de julho de 2026',
+            imagem: 'Certificado 5.jpg'
+           
         },
 
         {
@@ -31,20 +41,28 @@ const db = {
             imagem: 'Certificado 3.jpg'
         },
         {
+            link: 'https://cursos.alura.com.br/user/renato-mascarenhas/course/logica-programacao-mergulhe-programacao-javascript/certificate',
+            nome: 'Lógica de programação: Mergulhe em Programação com JavaScripit',
+            plataforma:'Alura',
+            conclusao: 'conclusão em 19 de novembro de 2025',
+            imagem: 'Certificado 6.jpg'
+        },
+        {
+            link: 'https://cursos.alura.com.br/certificate/renato-mascarenhas/html5-css3-primeiros-passos',
+            nome: 'HTML5 e CSS3',
+            plataforma:'Alura',
+            conclusao: 'Conclusão em 19 de maio de 2026',
+            imagem: 'Certificado 1.jpg'
+        },
+        {
             link: 'https://cursos.alura.com.br/user/renato-mascarenhas/course/projetos-artisticos-javascript/certificate',
             nome: 'Linguagem de programação: criando projetos artísticos com javascript',
             plataforma:'Alura',
             conclusao: 'conclusão em 13 de novembro de 2024',
             imagem: 'Certificado 4.jpg'
-        },
-        {
-            link: 'https://cursos.alura.com.br/user/renato-mascarenhas/course/projetos-artisticos-javascript/certificate',
-            nome: 'Git e GitHub: repositório, commit e versões',
-            plataforma:'Alura',
-            conclusao: 'conclusão em 13 de julho de 2026',
-            imagem: 'Certificado 5.jpg'
-        },
+        }
     ],
+
        projetos:[ 
         {
         nome:"UniMind",
