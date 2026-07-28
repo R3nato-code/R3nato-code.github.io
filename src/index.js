@@ -9,6 +9,9 @@ app.use(express.static("src/site"))
 app.set('view engine', 'ejs');
 app.set('views', './src/site')
 
+app.get('/',(req,res)=>{
+    res.redirect('/portifolio')
+})
 
 app.get('/portifolio', (req, res) => {
     res.render('portifolio.ejs', db)
