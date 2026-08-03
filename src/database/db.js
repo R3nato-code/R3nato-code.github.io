@@ -6,14 +6,14 @@ const db = {
         localizacao:'Ponta Grossa - PR',
         git: "github.com/Renato",
         numero: "(42) 99829-2718",
-        objetivo:"Tenho como objetivo aumentar minhas habilidades e conhecimento de programção. Desenvolvendo projetos que solucionem problemas reais."
+        objetivo:"Sou estudante do 2º ano do Ensino Médio, tenho facilidade para aprender, sou proativo, comunicativo e disciplinado. Gosto de resolver problemas, trabalhar em equipe e assumir responsabilidades, buscando sempre aprender, evoluir e contribuir com dedicação."
         
     },
 
     estadoAtual:{
         nivel:"Estudante",
         curso:"Dev sistemas",
-        foco:"Habilidades de programação"
+        foco:"Habilidades no mercado de trabalho"
     },
 
     certificados: [
